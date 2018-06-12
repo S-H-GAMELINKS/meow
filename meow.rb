@@ -2,13 +2,12 @@ require 'bundler/setup'
 Bundler.require(:default)
 
 require 'mastodon'
-require_relative 'input'
+require 'dotenv'
 
-url = UrlInputForm("https://mstdn.jp")
-token = TokenInputForm("")
+Dotenv.load
 
 #MastodonへのToot準備
-client = Mastodon::REST::Client.new(base_url: "#{url}", bearer_token: "#{token}")
+client = Mastodon::REST::Client.new(base_url: ENV["MASTODON_URL"], bearer_token: ENV["MASTODON_TOKEN"])
 message = ("にゃーん")
 
 #にゃーんボタンの描画
