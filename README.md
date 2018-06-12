@@ -23,6 +23,12 @@ MASTODON_TOKEN=<そのインスタンスで発行したアクセストークン>
 # ライセンス
 [MIT ライセンスです](./LICENSE)
 
+# 開発環境
+
+Ruby 2.3.3
+
+DXRuby 1.4.5
+
 # 参考文献
 
 [Mastodon API gemを使って投稿する](https://qiita.com/takahashim/items/a8c0eb3a75d366cfe87b)
