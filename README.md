@@ -34,3 +34,5 @@ DXRuby 1.4.5
 [Mastodon API gemを使って投稿する](https://qiita.com/takahashim/items/a8c0eb3a75d366cfe87b)
 
 [mastodon-api](https://www.rubydoc.info/gems/mastodon-api)
+
+[Rubyで完全自動Mastodon botを作成する](https://qiita.com/daiki-futami/items/afe21c00dc50c23cd109)
